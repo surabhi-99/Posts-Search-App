@@ -2,7 +2,13 @@ import React from "react";
 
 const TextInput = ({ value, onChange }) => {
   return (
-    <input type="text" placeholder="Search" value={value} onChange={onChange} />
+    <input
+      className="form-control"
+      type="text"
+      placeholder="Search"
+      value={value}
+      onChange={onChange}
+    />
   );
 };
 

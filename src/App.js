@@ -1,11 +1,11 @@
-import React from 'react';
-import PostSearch from './components/PostSearch';
+import React from "react";
+import PostSearch from "./components/PostSearch";
 
 function App() {
   return (
-    <div className="App">
-     <h1>Post Search App</h1>
-     <PostSearch/>
+    <div className="text-center">
+      <h1 className="m-5">Post Search App</h1>
+      <PostSearch />
     </div>
   );
 }
